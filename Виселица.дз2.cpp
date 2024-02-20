@@ -124,7 +124,7 @@ const vector<string> Gibbet{
 int main() {
 
     setlocale(LC_ALL, "rus");
-    vector<string> words = { "программа", "человек", "комьпьютер", "язык", "алгоритм" };
+    vector<string> words = { "mama", "human", "coputer", "language" };
 
     srand(static_cast<unsigned int>(time(0)));
     random_shuffle(words.begin(), words.end());
